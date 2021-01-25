@@ -24,3 +24,9 @@
 @import "layouts/pages";
 @import "layouts/posts";
 @import "layouts/sidebar";
+
+.section-services h4 {
+  margin-top: 1rem;
+  font-weight: $font-weight-normal;
+  font-size: $font-size-lg;
+}

@@ -1,7 +1,7 @@
 .docs-links,
 .docs-toc {
   scrollbar-width: thin;
-  scrollbar-color: $white $white;
+  scrollbar-color: $gray-bg $gray-bg;
 }
 
 .docs-links::-webkit-scrollbar,
@@ -11,18 +11,18 @@
 
 .docs-links::-webkit-scrollbar-track,
 .docs-toc::-webkit-scrollbar-track {
-  background: $white;
+  background: $gray-bg;
 }
 
 .docs-links::-webkit-scrollbar-thumb,
 .docs-toc::-webkit-scrollbar-thumb {
-  background: $white;
+  background: $gray-bg;
 }
 
 .docs-links:hover,
 .docs-toc:hover {
   scrollbar-width: thin;
-  scrollbar-color: $gray-200 $white;
+  scrollbar-color: $gray-200 $gray-bg;
 }
 
 .docs-links:hover::-webkit-scrollbar-thumb,

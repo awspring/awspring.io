@@ -22,7 +22,10 @@ $brown:    #aa9c84;
 $blue-300: #8ed6fb;
 $pink-500: #d32e9d;
 
-$primary: $purple;
+$spring-green: #5DA831;
+$gray-bg: #F7F9FA;
+
+$primary: $spring-green;
 
 /** Bootstrap navbar fix (https://git.io/fADqW) */
 $navbar-dark-toggler-icon-bg: none;
@@ -38,8 +41,8 @@ $enable-responsive-font-sizes: true;
 //
 // Settings for the `<body>` element.
 
-$body-bg:                   $white;
-$body-color:                $black;
+$body-bg:                   $gray-bg; //$white;
+$body-color:                $gray-800;
 
 // Grid containers
 //
@@ -73,7 +76,7 @@ $border-color:                $gray-200;
 // Font, line-height, and color for body text, headings, and more.
 
 // stylelint-disable value-keyword-case
-$font-family-sans-serif:      "Jost", -apple-system, blinkmacsystemfont, "Segoe UI", roboto, "Helvetica Neue", arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$font-family-sans-serif:      -apple-system, blinkmacsystemfont, "Segoe UI", roboto, "Helvetica Neue", arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 $font-family-monospace:       sfmono-regular, menlo, monaco, consolas, "Liberation Mono", "Courier New", monospace;
 $font-family-base:            $font-family-sans-serif;
 // stylelint-enable value-keyword-case
@@ -87,7 +90,7 @@ $font-size-sm:                $font-size-base * 0.875;
 $line-height-base:            1.5;
 
 $headings-font-family:        null;
-$headings-font-weight:        700;
+$headings-font-weight:        500;
 
 $lead-font-weight:            400;
 
