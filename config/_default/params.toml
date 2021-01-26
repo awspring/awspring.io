@@ -7,7 +7,7 @@ titleAddition = "Spring Cloud AWS"
 description = "Doks is a Hugo theme helping you build modern documentation websites that are secure, fast, and SEO-ready — by default."
 
 ## Open Graph + Twitter Cards
-images = ["doks.png"]
+images = ["opengraph.png"]
 twitterSite = "henkverlinde"
 twitterCreator = "henkverlinde"
 facebookAuthor = "verlinde.henk"
@@ -16,10 +16,10 @@ ogLocale = "en_US"
 
 ## JSON-LD
 schemaType = "Organization"
-schemaLogo = "logo-doks.png"
-schemaTwitter = "https://twitter.com/henkverlinde"
-schemaLinkedIn = "https://www.linkedin.com/in/henkverlinde/"
-schemaGitHub = "https://github.com/h-enk"
+schemaLogo = "awspring-logo.png"
+schemaTwitter = "https://twitter.com/maciejwalkowiak"
+schemaLinkedIn = "https://www.linkedin.com/in/maciejwalkowiak/"
+schemaGitHub = "https://github.com/awspring"
 schemaSection = "blog"
 
 ## Sitelinks Search Box
