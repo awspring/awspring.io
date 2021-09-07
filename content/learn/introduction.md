@@ -19,7 +19,7 @@ toc: true
 
 There are two actively developed versions of Spring Cloud AWS - depending on which version of Spring Boot is used in the project:
 
-- 2.3.1 - compatible with Spring Boot 2.4.x and 2.5.x - [Reference Docs](https://docs.awspring.io/spring-cloud-aws/docs/2.3.1/reference/html/index.html)
+- 2.3.2 - compatible with Spring Boot 2.4.x and 2.5.x - [Reference Docs](https://docs.awspring.io/spring-cloud-aws/docs/2.3.2/reference/html/index.html)
 - 2.2.6 RELEASE - compatible with Spring Boot 2.3.x - [Reference Docs](https://docs.spring.io/spring-cloud-aws/docs/2.2.6.RELEASE/2.2.6.RELEASE/reference/html/)
 
 Version 2.2.x is maintained in the original [Spring Cloud](https://github.com/spring-cloud/spring-cloud-aws) repository - it's in the maintenance mode, meaning only bugfixes or security vulnerabilities are going to be fixed there.
