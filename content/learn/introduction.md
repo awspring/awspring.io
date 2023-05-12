@@ -21,7 +21,7 @@ There are three actively developed versions of Spring Cloud AWS - depending on w
 
 - 2.3.5 - compatible with Spring Boot 2.4.x and 2.5.x - [Reference Docs](https://docs.awspring.io/spring-cloud-aws/docs/2.3.5/reference/html/index.html)
 - 2.4.1 - compatible with Spring Boot 2.6.x and 2.7.x - [Reference Docs](https://docs.awspring.io/spring-cloud-aws/docs/2.4.1/reference/html/index.html)
-- 3.0.0 (not released yet)  - compatible with Spring Boot 2.6.x and 2.7.x, build on the top of AWS SDK v2 - [Reference Docs](https://docs.awspring.io/spring-cloud-aws/docs/3.0.0-SNAPSHOT/reference/html/index.html)
+- 3.0.1 - compatible with Spring Boot 2.6.x and 2.7.x, build on the top of AWS SDK v2 - [Reference Docs](https://docs.awspring.io/spring-cloud-aws/docs/3.0.1/reference/html/index.html)
 
 Version 2.4.x is the latest stable release maintained under [awspring](https://github.com/awspring/spring-cloud-aws) GitHub organisation. This version is based on AWS SDK 1.x, it's open for contributions for both bugfixes and new features or integrations.
 
