@@ -4,6 +4,14 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Spring Cloud AWS",
   description: "Spring Boot & Spring Cloud integration with AWS Cloud",
+  head: [
+    ['meta', {name: 'theme-color', content: '#1B1B1F'}],
+    ['script', {
+      defer: 'true',
+      'data-domain': 'awspring.io',
+      src: 'https://plausible.io/js/script.js'
+    }]
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
