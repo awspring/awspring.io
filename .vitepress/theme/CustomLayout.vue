@@ -17,7 +17,7 @@ const {Layout} = DefaultTheme
         <SupportedServices />
 
         <div style="margin-top: 25px">
-          <p><strong>Note that Spring Cloud AWS is developed and maintained by the community and is not affiliated with Amazon and VMWare.</strong></p>
+          <p>Spring Cloud AWS is developed and maintained by the community and is not affiliated with Amazon and VMWare.</p>
         </div>
         <div style="margin-top: 50px">
           <h2>Contributors</h2>
