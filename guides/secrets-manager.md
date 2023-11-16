@@ -108,4 +108,4 @@ class MyService {
 
 ## Read more
 
-This was just a glympse of what Spring Cloud AWS can do. For more details about Secrets Manager integration go to the [reference documentation](https://docs.awspring.io/spring-cloud-aws/docs/3.0.3/reference/html/index.html#spring-cloud-aws-parameter-store).
+This was just a glympse of what Spring Cloud AWS can do. For more details about Secrets Manager integration go to the [reference documentation](https://docs.awspring.io/spring-cloud-aws/docs/3.0.2/reference/html/index.html#spring-cloud-aws-secrets-manager).
