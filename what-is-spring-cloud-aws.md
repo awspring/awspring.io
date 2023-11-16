@@ -1,6 +1,8 @@
-# What is Spring Cloud AWS?
+# 🍃 Spring Cloud AWS
 
-Spring Cloud AWS simplifies using AWS managed services in a Spring and Spring Boot applications.
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/from-referrer/)
+
+Simplifies using AWS managed services in a Spring and Spring Boot applications.
 
 For a deep dive into the project, refer to the Spring Cloud AWS documentation:
 
@@ -20,33 +22,87 @@ Big thanks to [LocalStack](https://localstack.cloud) for providing PRO licenses 
 
 This project has dependency and transitive dependencies on Spring Projects. The table below outlines the versions of Spring Cloud, Spring Boot and Spring Framework versions that are compatible with certain Spring Cloud AWS version.
 
-| Spring Cloud AWS            | Spring Cloud                                                                                                          | Spring Boot  | Spring Framework | AWS Java SDK |
-|-----------------------------|-----------------------------------------------------------------------------------------------------------------------|--------------|------------------|--------------|
-| 2.3.x (maintenance mode)  	 | [2020.0.x](https://github.com/spring-cloud/spring-cloud-release/wiki/Spring-Cloud-2020.0-Release-Notes) (3.0/Illford) | 2.4.x, 2.5.x | 5.3.x            | 1.x          |
-| 2.4.x (maintenance mode)  	 | [2021.0.x](https://github.com/spring-cloud/spring-cloud-release/wiki/Spring-Cloud-2021.0-Release-Notes) (3.1/Jubilee) | 2.6.x, 2.7.x | 5.3.x            | 1.x          |
-| 3.0.x                       | [2022.0.x](https://github.com/spring-cloud/spring-cloud-release/wiki/Spring-Cloud-2022.0-Release-Notes) (4.0/Kilburn) | 3.0.x, 3.1.x | 6.0.x            | 2.x          |
-| 3.1.x                       | [2023.0.x](https://github.com/spring-cloud/spring-cloud-release/wiki/Spring-Cloud-2022.0-Release-Notes) (4.0/Kilburn) | 3.2.x        | 6.1.x            | 2.x          |
+| Spring Cloud AWS             | Spring Cloud                                                                                                          | Spring Boot  | Spring Framework | AWS Java SDK |
+|------------------------------|-----------------------------------------------------------------------------------------------------------------------|--------------|------------------|--------------|
+| 2.3.x (maintenance mode)  	| [2020.0.x](https://github.com/spring-cloud/spring-cloud-release/wiki/Spring-Cloud-2020.0-Release-Notes) (3.0/Illford) | 2.4.x, 2.5.x | 5.3.x            | 1.x          |
+| 2.4.x (maintenance mode)  	| [2021.0.x](https://github.com/spring-cloud/spring-cloud-release/wiki/Spring-Cloud-2021.0-Release-Notes) (3.1/Jubilee) | 2.6.x, 2.7.x | 5.3.x            | 1.x          |
+| 3.0.x                        | [2022.0.x](https://github.com/spring-cloud/spring-cloud-release/wiki/Spring-Cloud-2022.0-Release-Notes) (4.0/Kilburn) | 3.0.x, 3.1.x | 6.0.x            | 2.x          |
 
 **Note**: 3.0.0-M2 is the last version compatible with Spring Boot 2.7.x and Spring Cloud 3.1. Starting from 3.0.0-M3, project has switched to Spring Boot 3.0.
 
 ## Supported AWS integrations
 
-| AWS Service     | Spring Cloud AWS 3.x                                                                                                                        |
-|-----------------|---------------------------------------------------------------------------------------------------------------------------------------------|
-| S3              | ✅                                                                                                                                           |
-| SNS             | ✅                                                                                                                                           |
-| SES             | ✅                                                                                                                                           |
-| Parameter Store | ✅                                                                                                                                           |
-| Secrets Manager | ✅                                                                                                                                           |
-| SQS             | ✅                                                                                                                                           |
-| CloudWatch      | ✅                                                                                                                                           |
-| DynamoDB        | ✅                                                                                                                                           |
+| AWS Service     | Spring Cloud AWS 2.x | Spring Cloud AWS 3.x                                                                                                                        |
+|-----------------|----------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
+| S3              | ✅                    | ✅                                                                                                                                           |
+| SNS             | ✅                    | ✅                                                                                                                                           |
+| SES             | ✅                    | ✅                                                                                                                                           |
+| Parameter Store | ✅                    | ✅                                                                                                                                           |
+| Secrets Manager | ✅                    | ✅                                                                                                                                           |
+| SQS             | ✅                    | ✅                                                                                                                                           |
+| RDS             | ✅                    | ❌                                                                                                                                           |
+| EC2             | ✅                    | ❌                                                                                                                                           |
+| ElastiCache     | ✅                    | ❌                                                                                                                                           |
+| CloudFormation  | ✅                    | ❌                                                                                                                                           |
+| CloudWatch      | ✅                    | ✅                                                                                                                                           |
+| Cognito         | ✅                    | [Covered by Spring Boot](https://docs.awspring.io/spring-cloud-aws/docs/3.0.0-SNAPSHOT/reference/html/index.html#migration-from-2-x-to-3-x) |
+| DynamoDB        | ❌                    | ✅                                                                                                                                           |
 
 Note, that Spring provides support for other AWS services in following projects:
 
 - [Spring Cloud Stream Binder AWS Kinesis](https://github.com/spring-cloud/spring-cloud-stream-binder-aws-kinesis)
 - [Spring Cloud Config Server](https://github.com/spring-cloud/spring-cloud-config) supports AWS Parameter Store and Secrets Manager
 - [Spring Integration for AWS](https://github.com/spring-projects/spring-integration-aws)
+
+
+## Checking out and building
+
+To check out the project and build it from source, do the following:
+
+```
+git clone https://github.com/awspring/spring-cloud-aws.git
+cd spring-cloud-aws
+./mvnw package
+```
+
+To build and install jars into your local Maven cache:
+
+```
+./mvnw install
+```
+
+For faster builds, we recommend using [Maven Daemon](https://github.com/apache/maven-mvnd) and using following commands:
+
+Build:
+
+```
+make build
+```
+
+Clean:
+
+```
+make clean
+```
+
+Format code:
+
+```
+make format
+```
+
+## Building documentation
+
+Documentation can be built by activating the `docs` profile in the maven build.
+
+```
+make docs
+```
+
+It generates:
+
+- reference documentation in `docs/target/generated-docs/`
+- API docs in `target/site/`
 
 ## Getting in touch
 

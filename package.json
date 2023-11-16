@@ -1,7 +1,8 @@
 {
   "scripts": {
+    "sync": "node sync-files.js",
     "docs:dev": "vitepress dev",
-    "build": "vitepress build",
+    "build": "npm run sync && vitepress build",
     "docs:preview": "vitepress preview"
   },
   "devDependencies": {
