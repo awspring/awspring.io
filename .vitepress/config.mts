@@ -16,7 +16,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      // { text: 'Guides', link: '/what-is-spring-cloud-aws' },
+      { text: 'Guides', link: '/what-is-spring-cloud-aws' },
       { text: 'Reference Docs', link: 'https://docs.awspring.io/spring-cloud-aws/docs/3.0.3/reference/html/index.html' }
     ],
 
