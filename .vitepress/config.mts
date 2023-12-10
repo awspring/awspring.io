@@ -16,7 +16,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      // { text: 'Guides', link: '/what-is-spring-cloud-aws' },
+      { text: 'Guides', link: '/what-is-spring-cloud-aws' },
       { text: 'Reference Docs', link: 'https://docs.awspring.io/spring-cloud-aws/docs/3.0.3/reference/html/index.html' }
     ],
 
@@ -33,10 +33,10 @@ export default defineConfig({
         items: [
           { text: 'Messaging with SQS', link: '/markdown-examples' },
           { text: 'Publishing notifications with SNS', link: '/api-examples' },
-          { text: 'File storage with S3', link: '/api-examples' },
-          { text: 'Persistence with DynamoDb', link: '/api-examples' },
+          { text: 'Uploading files to S3', link: '/guides/upload-files-s3' },
+          { text: 'Persistence with DynamoDB', link: '/api-examples' },
           { text: 'Configuration with Secrets Manager', link: '/guides/secrets-manager' },
-          { text: 'Configuration with Parameter Store', link: '/api-examples' },
+          { text: 'Configuration with Parameter Store', link: '/guides/parameter-store' },
         ]
       }
     ],
