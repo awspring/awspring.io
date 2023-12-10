@@ -3,14 +3,14 @@ export default {
   data() {
     return {
       services: [
-        { name: 'S3', image: '/S3.png', link: 'https://docs.awspring.io/spring-cloud-aws/docs/3.0.3/reference/html/index.html#spring-cloud-aws-s3'},
-        { name: 'SQS', image: '/SQS.png', link: 'https://docs.awspring.io/spring-cloud-aws/docs/3.0.3/reference/html/index.html#sqs-integration'},
-        { name: 'SNS', image: '/SNS.png', link: 'https://docs.awspring.io/spring-cloud-aws/docs/3.0.3/reference/html/index.html#spring-cloud-aws-sns'},
-        { name: 'DynamoDb', image: '/DynamoDb.png', link: 'https://docs.awspring.io/spring-cloud-aws/docs/3.0.3/reference/html/index.html#spring-cloud-aws-dynamoDb'},
-        { name: 'CloudWatch', image: '/CloudWatch.png', link: 'https://docs.awspring.io/spring-cloud-aws/docs/3.0.3/reference/html/index.html#cloudwatch-metrics'},
-        { name: 'Parameter Store', image: '/Parameter-Store.png', link: 'https://docs.awspring.io/spring-cloud-aws/docs/3.0.3/reference/html/index.html#spring-cloud-aws-parameter-store'},
-        { name: 'Secrets Manager', image: '/Secrets-Manager.png', link: 'https://docs.awspring.io/spring-cloud-aws/docs/3.0.3/reference/html/index.html#spring-cloud-aws-secrets-manager'},
-        { name: 'SES', image: '/SES.png', link: 'https://docs.awspring.io/spring-cloud-aws/docs/3.0.3/reference/html/index.html#spring-cloud-aws-ses'}
+        { name: 'S3', image: '/S3.png', link: 'https://docs.awspring.io/spring-cloud-aws/docs/3.1.0/reference/html/index.html#spring-cloud-aws-s3'},
+        { name: 'SQS', image: '/SQS.png', link: 'https://docs.awspring.io/spring-cloud-aws/docs/3.1.0/reference/html/index.html#sqs-integration'},
+        { name: 'SNS', image: '/SNS.png', link: 'https://docs.awspring.io/spring-cloud-aws/docs/3.1.0/reference/html/index.html#spring-cloud-aws-sns'},
+        { name: 'DynamoDb', image: '/DynamoDb.png', link: 'https://docs.awspring.io/spring-cloud-aws/docs/3.1.0/reference/html/index.html#spring-cloud-aws-dynamoDb'},
+        { name: 'CloudWatch', image: '/CloudWatch.png', link: 'https://docs.awspring.io/spring-cloud-aws/docs/3.1.0/reference/html/index.html#cloudwatch-metrics'},
+        { name: 'Parameter Store', image: '/Parameter-Store.png', link: 'https://docs.awspring.io/spring-cloud-aws/docs/3.1.0/reference/html/index.html#spring-cloud-aws-parameter-store'},
+        { name: 'Secrets Manager', image: '/Secrets-Manager.png', link: 'https://docs.awspring.io/spring-cloud-aws/docs/3.1.0/reference/html/index.html#spring-cloud-aws-secrets-manager'},
+        { name: 'SES', image: '/SES.png', link: 'https://docs.awspring.io/spring-cloud-aws/docs/3.1.0/reference/html/index.html#spring-cloud-aws-ses'}
       ]
     }
   }
