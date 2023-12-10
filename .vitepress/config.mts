@@ -33,7 +33,7 @@ export default defineConfig({
         items: [
           { text: 'Messaging with SQS', link: '/markdown-examples' },
           { text: 'Publishing notifications with SNS', link: '/api-examples' },
-          { text: 'File storage with S3', link: '/api-examples' },
+          { text: 'Uploading files to S3', link: '/guides/upload-files-s3' },
           { text: 'Persistence with DynamoDB', link: '/api-examples' },
           { text: 'Configuration with Secrets Manager', link: '/guides/secrets-manager' },
           { text: 'Configuration with Parameter Store', link: '/guides/parameter-store' },

@@ -30,7 +30,7 @@ $ aws ssm put-parameter \
 
 1. Go to https://start.spring.io. This service pulls in all the dependencies you need for an application and does most of the setup for you.
 2. Choose either Gradle or Maven and the language you want to use. This guide assumes that you chose Java.
-4. Click Generate.
+3. Click Generate.
 
 Download the resulting ZIP file, extract it, and open in IDE of your choice.
 
