@@ -17,7 +17,7 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       // { text: 'Guides', link: '/what-is-spring-cloud-aws' },
-      { text: 'Reference Docs', link: 'https://docs.awspring.io/spring-cloud-aws/docs/3.2.0/reference/html/index.html' }
+      { text: 'Reference Docs', link: 'https://docs.awspring.io/spring-cloud-aws/docs/3.3.0/reference/html/index.html' }
     ],
 
     sidebar: [
